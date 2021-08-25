@@ -68,7 +68,53 @@ void __sanitizer_cov_trace_pc_guard(uint32_t *guard) {
 //  if (!*guard) return;
   //当前函数返回到上一个调用的地址!!
     
+    
+    
+    
+    
+    
+    
+    
+    
+    //  builtin , 当前内部
+    
+    
+    
+    //  return， 返回
+    
+    
+    
+    
+    
     void *PC = __builtin_return_address(0);
+    
+    
+    // 0 的意思是
+    
+    // PC 是我们的返回地址
+    
+    // 这一个函数，调用完毕了，
+    // 回到，哪个地方去 （ 当前函数，回到，哪个地方去 ）
+    
+    
+    // 这个函数，被别人调用了的，返回地址
+    
+    
+    
+    
+    
+    
+    
+    // 1 的意思是，
+    // 当前函数的调用者的，返回地址
+    // （ 上一个函数，回到，哪个地方去 ）
+    
+    
+    
+    //  void *PC = __builtin_return_address(1);
+    
+    
+    
     //创建结构体!
    SYNode * node = malloc(sizeof(SYNode));
     *node = (SYNode){PC};
