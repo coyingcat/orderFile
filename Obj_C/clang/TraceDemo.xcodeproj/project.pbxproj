@@ -104,7 +104,7 @@
 		36E9B8ED25693A1C00A49DFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = hank;
 				TargetAttributes = {
 					36E9B8F425693A1C00A49DFF = {
@@ -204,6 +204,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -262,6 +263,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -294,7 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5KN6964MFR;
+				DEVELOPMENT_TEAM = D878P8TW6L;
 				INFOPLIST_FILE = TraceDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_GENERATE_MAP_FILE = YES;
@@ -302,10 +304,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ORDER_FILE = ./hank.order;
+				ORDER_FILE = "";
 				OTHER_CFLAGS = "-fsanitize-coverage=func,trace-pc-guard";
 				OTHER_SWIFT_FLAGS = "-sanitize-coverage=func -sanitize=undefined";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Logic.TraceDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalala.TraceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TraceDemo/TraceDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -320,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5KN6964MFR;
+				DEVELOPMENT_TEAM = D878P8TW6L;
 				INFOPLIST_FILE = TraceDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_GENERATE_MAP_FILE = YES;
@@ -328,10 +330,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ORDER_FILE = ./hank.order;
+				ORDER_FILE = "";
 				OTHER_CFLAGS = "-fsanitize-coverage=func,trace-pc-guard";
 				OTHER_SWIFT_FLAGS = "-sanitize-coverage=func -sanitize=undefined";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Logic.TraceDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalala.TraceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TraceDemo/TraceDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
